@@ -33,8 +33,7 @@ metadata/_custom_type_script = "uid://cfb1i5pjg53b5"
 [node name="CollisionShape3D" type="CollisionShape3D" parent="PlayerDetector3D"]
 shape = SubResource("SphereShape3D_ae4i6")
 
-[node name="RoommateWishDir" type="Node" parent="." node_paths=PackedStringArray("nav_agent", "current_position_node")]
+[node name="RoommateWishDir" type="Node" parent="." node_paths=PackedStringArray("current_position_node")]
 script = ExtResource("4_a3oh8")
-nav_agent = NodePath("../NavigationAgent3D")
 current_position_node = NodePath("..")
 metadata/_custom_type_script = "uid://dm05esq75t5ue"
